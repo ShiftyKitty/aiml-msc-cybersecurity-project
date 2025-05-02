@@ -1,0 +1,57 @@
+{
+    "ECE Flag Cnt": {
+        "mean_importance": 7.806167400881059,
+        "std_importance": 0.1,
+        "coefficient_of_variation": 0.3907249795152068
+    },
+    "Flag_Combination": {
+        "mean_importance": 2.489058978677595,
+        "std_importance": 0.1,
+        "coefficient_of_variation": 0.5348371709656863
+    },
+    "Fwd Pkt Len Std": {
+        "mean_importance": 2.087272293802565,
+        "std_importance": 0.1,
+        "coefficient_of_variation": 0.563093384982328
+    },
+    "Fwd IAT Std": {
+        "mean_importance": 1.9715110930604305,
+        "std_importance": 0.1,
+        "coefficient_of_variation": 0.5371040220554042
+    },
+    "PSH Flag Cnt": {
+        "mean_importance": 1.6940700808625337,
+        "std_importance": 0.1,
+        "coefficient_of_variation": 0.5466006080979712
+    },
+    "Bwd IAT Min": {
+        "mean_importance": 1.5191289815316416,
+        "std_importance": 0.1,
+        "coefficient_of_variation": 0.44907792225807186
+    },
+    "Flow IAT Std": {
+        "mean_importance": 1.5032929497676164,
+        "std_importance": 0.1,
+        "coefficient_of_variation": 0.4987004469351949
+    },
+    "Pkt_Size_Ratio": {
+        "mean_importance": 1.076733397648367,
+        "std_importance": 0.1,
+        "coefficient_of_variation": 0.3298247936291814
+    },
+    "Bwd Pkt Len Min": {
+        "mean_importance": 1.0,
+        "std_importance": 0.1,
+        "coefficient_of_variation": 0.33531264223213997
+    },
+    "FIN Flag Cnt": {
+        "mean_importance": 1.0,
+        "std_importance": 0.1,
+        "coefficient_of_variation": 0.05461466495086342
+    },
+    "Fwd PSH Flags": {
+        "mean_importance": 1.0,
+        "std_importance": 0.1,
+        "coefficient_of_variation": 0.08321784665353893
+    }
+}

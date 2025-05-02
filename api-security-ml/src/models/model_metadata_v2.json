@@ -1,0 +1,69 @@
+{
+    "model_type": "Isolation Forest",
+    "model_version": "v2.0",
+    "created_date": "2025-04-27 13:41:01",
+    "features": [
+        "ECE Flag Cnt",
+        "Bwd IAT Min",
+        "Flow IAT Std",
+        "Pkt_Size_Ratio",
+        "Bwd Pkt Len Min",
+        "FIN Flag Cnt",
+        "Fwd PSH Flags"
+    ],
+    "threshold": -0.08518557550668794,
+    "performance": {
+        "precision": 0.5454545454545454,
+        "recall": 1.0,
+        "f1": 0.7058823529411765
+    },
+    "feature_importance": {
+        "Pkt_Size_Ratio": 0.6799999999999999,
+        "Bwd IAT Min": 0.5666666666666667,
+        "ECE Flag Cnt": 0.0,
+        "Flow IAT Std": 0.0,
+        "Bwd Pkt Len Min": 0.0,
+        "FIN Flag Cnt": 0.0,
+        "Fwd PSH Flags": 0.0
+    },
+    "transformations": {
+        "Bwd Pkt Len Min": "log1p",
+        "Flow IAT Std": "log1p",
+        "Bwd IAT Min": "log1p",
+        "Fwd PSH Flags": "log1p",
+        "FIN Flag Cnt": "log1p",
+        "ECE Flag Cnt": "log1p"
+    },
+    "range_info": {
+        "Bwd Pkt Len Min": {
+            "min": 0,
+            "max": 331,
+            "median": 0.0
+        },
+        "Flow IAT Std": {
+            "min": 0.0,
+            "max": 44483229.1631145,
+            "median": 6.23185676755
+        },
+        "Bwd IAT Min": {
+            "min": 0,
+            "max": 29093697,
+            "median": 0.0
+        },
+        "Fwd PSH Flags": {
+            "min": 0,
+            "max": 1,
+            "median": 0.0
+        },
+        "FIN Flag Cnt": {
+            "min": 0,
+            "max": 1,
+            "median": 0.0
+        },
+        "ECE Flag Cnt": {
+            "min": 0,
+            "max": 1,
+            "median": 0.0
+        }
+    }
+}

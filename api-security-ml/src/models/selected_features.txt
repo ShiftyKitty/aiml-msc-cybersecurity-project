@@ -1,0 +1,11 @@
+Bwd Pkt Len Min
+FIN Flag Cnt
+Bwd IAT Min
+ECE Flag Cnt
+PSH Flag Cnt
+Flow IAT Std
+Fwd IAT Std
+Flag_Combination
+Pkt_Size_Ratio
+Fwd Pkt Len Std
+Fwd PSH Flags

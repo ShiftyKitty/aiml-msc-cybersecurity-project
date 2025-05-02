@@ -1,0 +1,241 @@
+{
+    "Protocol": {
+        "type": "none"
+    },
+    "Flow Duration": {
+        "type": "log1p"
+    },
+    "Tot Fwd Pkts": {
+        "type": "log1p"
+    },
+    "Tot Bwd Pkts": {
+        "type": "log1p"
+    },
+    "TotLen Fwd Pkts": {
+        "type": "log1p"
+    },
+    "TotLen Bwd Pkts": {
+        "type": "log1p"
+    },
+    "Fwd Pkt Len Max": {
+        "type": "log1p"
+    },
+    "Fwd Pkt Len Min": {
+        "type": "log1p"
+    },
+    "Fwd Pkt Len Mean": {
+        "type": "log1p"
+    },
+    "Fwd Pkt Len Std": {
+        "type": "log1p"
+    },
+    "Bwd Pkt Len Max": {
+        "type": "minmax",
+        "min": 0,
+        "max": 1460
+    },
+    "Bwd Pkt Len Min": {
+        "type": "log1p"
+    },
+    "Bwd Pkt Len Mean": {
+        "type": "log1p"
+    },
+    "Bwd Pkt Len Std": {
+        "type": "none"
+    },
+    "Flow Byts/s": {
+        "type": "log1p"
+    },
+    "Flow Pkts/s": {
+        "type": "log1p"
+    },
+    "Flow IAT Mean": {
+        "type": "log1p"
+    },
+    "Flow IAT Std": {
+        "type": "log1p"
+    },
+    "Flow IAT Max": {
+        "type": "log1p"
+    },
+    "Flow IAT Min": {
+        "type": "log1p"
+    },
+    "Fwd IAT Tot": {
+        "type": "log1p"
+    },
+    "Fwd IAT Mean": {
+        "type": "log1p"
+    },
+    "Fwd IAT Std": {
+        "type": "log1p"
+    },
+    "Fwd IAT Max": {
+        "type": "log1p"
+    },
+    "Fwd IAT Min": {
+        "type": "log1p"
+    },
+    "Bwd IAT Tot": {
+        "type": "log1p"
+    },
+    "Bwd IAT Mean": {
+        "type": "log1p"
+    },
+    "Bwd IAT Std": {
+        "type": "log1p"
+    },
+    "Bwd IAT Max": {
+        "type": "log1p"
+    },
+    "Bwd IAT Min": {
+        "type": "log1p"
+    },
+    "Fwd PSH Flags": {
+        "type": "log1p"
+    },
+    "Bwd PSH Flags": {
+        "type": "none"
+    },
+    "Fwd URG Flags": {
+        "type": "none"
+    },
+    "Bwd URG Flags": {
+        "type": "none"
+    },
+    "Fwd Header Len": {
+        "type": "log1p"
+    },
+    "Bwd Header Len": {
+        "type": "log1p"
+    },
+    "Fwd Pkts/s": {
+        "type": "log1p"
+    },
+    "Bwd Pkts/s": {
+        "type": "log1p"
+    },
+    "Pkt Len Min": {
+        "type": "log1p"
+    },
+    "Pkt Len Max": {
+        "type": "minmax",
+        "min": 0,
+        "max": 1460
+    },
+    "Pkt Len Mean": {
+        "type": "log1p"
+    },
+    "Pkt Len Std": {
+        "type": "log1p"
+    },
+    "Pkt Len Var": {
+        "type": "log1p"
+    },
+    "FIN Flag Cnt": {
+        "type": "log1p"
+    },
+    "SYN Flag Cnt": {
+        "type": "log1p"
+    },
+    "RST Flag Cnt": {
+        "type": "log1p"
+    },
+    "PSH Flag Cnt": {
+        "type": "none"
+    },
+    "ACK Flag Cnt": {
+        "type": "none"
+    },
+    "URG Flag Cnt": {
+        "type": "log1p"
+    },
+    "CWE Flag Count": {
+        "type": "none"
+    },
+    "ECE Flag Cnt": {
+        "type": "log1p"
+    },
+    "Down/Up Ratio": {
+        "type": "none"
+    },
+    "Pkt Size Avg": {
+        "type": "log1p"
+    },
+    "Fwd Seg Size Avg": {
+        "type": "log1p"
+    },
+    "Bwd Seg Size Avg": {
+        "type": "log1p"
+    },
+    "Fwd Byts/b Avg": {
+        "type": "none"
+    },
+    "Fwd Pkts/b Avg": {
+        "type": "none"
+    },
+    "Fwd Blk Rate Avg": {
+        "type": "none"
+    },
+    "Bwd Byts/b Avg": {
+        "type": "none"
+    },
+    "Bwd Pkts/b Avg": {
+        "type": "none"
+    },
+    "Bwd Blk Rate Avg": {
+        "type": "none"
+    },
+    "Subflow Fwd Pkts": {
+        "type": "log1p"
+    },
+    "Subflow Fwd Byts": {
+        "type": "log1p"
+    },
+    "Subflow Bwd Pkts": {
+        "type": "log1p"
+    },
+    "Subflow Bwd Byts": {
+        "type": "log1p"
+    },
+    "Init Fwd Win Byts": {
+        "type": "minmax",
+        "min": -1,
+        "max": 65535
+    },
+    "Init Bwd Win Byts": {
+        "type": "minmax",
+        "min": -1,
+        "max": 65535
+    },
+    "Fwd Act Data Pkts": {
+        "type": "log1p"
+    },
+    "Fwd Seg Size Min": {
+        "type": "none"
+    },
+    "Active Mean": {
+        "type": "log1p"
+    },
+    "Active Std": {
+        "type": "log1p"
+    },
+    "Active Max": {
+        "type": "log1p"
+    },
+    "Active Min": {
+        "type": "log1p"
+    },
+    "Idle Mean": {
+        "type": "log1p"
+    },
+    "Idle Std": {
+        "type": "log1p"
+    },
+    "Idle Max": {
+        "type": "log1p"
+    },
+    "Idle Min": {
+        "type": "log1p"
+    }
+}
